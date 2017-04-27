@@ -8,9 +8,9 @@ module.exports = (req, res) => {
     //
     res.render('index', {
         title: 'Hello Universe',
-        greeting: `Hello Eda! Es ist ${new Date().toISOString()}`,
-        linkOne: `/`,
-        linkTwo: `/about`,
-        linkThree: `/tweets`
+        greeting: `Hello Eda!!!! Es ist ${new Date().toISOString()}`,
+        link1: `/`,
+        link2: `/about`,
+        link3: `/tweets`
     });
 };
